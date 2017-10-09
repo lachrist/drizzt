@@ -5,7 +5,13 @@
 , "repository": "lachrist/drizzt"
 , "homepage": "http://github.com/lachrist/drizzt"
 , "license" : "MIT"
-, "dependencies": {}
+, "dependencies":
+  { "otiluke": "*"
+  , "melf": "*"
+  , "kalah": "*"
+  , "antena": "*"
+  , "minimist": "*"
+  }
 , "main": "main.js"
 , "keywords" : []
 }
