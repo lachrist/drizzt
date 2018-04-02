@@ -1,17 +1,19 @@
-{ "name" : "drizzt"
-, "description" : "Distributed Dynamic Analysis"
-, "version" : "0.0.0"
-, "author" : {"name":"Laurent Christophe", "email":"lachrist@vub.ac.be"}
-, "repository": "lachrist/drizzt"
-, "homepage": "http://github.com/lachrist/drizzt"
-, "license" : "MIT"
-, "dependencies":
-  { "otiluke": "*"
-  , "melf": "*"
-  , "kalah": "*"
-  , "antena": "*"
-  , "minimist": "*"
+{
+  "name": "drizzt",
+  "description": "Deploy Aran analyses on distributed programs",
+  "version": "0.0.0",
+  "author": {
+    "name": "Laurent Christophe",
+    "email": "lachrist@vub.ac.be"
+  },
+  "repository": "lachrist/drizzt",
+  "homepage": "http://github.com/lachrist/drizzt",
+  "license": "MIT",
+  "main": "main.js",
+  "keywords": [],
+  "dependencies": {
+    "acorn": "^5.5.3",
+    "astring": "^1.2.0",
+    "sandbox-scenario": "0.0.12"
   }
-, "main": "main.js"
-, "keywords" : []
 }
