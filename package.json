@@ -10,10 +10,5 @@
   "homepage": "http://github.com/lachrist/drizzt",
   "license": "MIT",
   "main": "main.js",
-  "keywords": [],
-  "dependencies": {
-    "acorn": "^5.5.3",
-    "astring": "^1.2.0",
-    "sandbox-scenario": "0.0.12"
-  }
+  "keywords": []
 }

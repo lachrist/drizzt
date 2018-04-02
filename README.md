@@ -1,16 +1,5 @@
 # drizzt
 
-```
-require("drizzt")(
-  options: {
-    emitter: antenna.Emitter,
-    key: string,
-    async: boolean,
-    traps: aran.traps,
-    initialize: (global:object, origin:string) => {
-      namespace: string,
-      setup: string,
-      sandbox: * },
-    instrument: (script:string, source:string, origin:string) => string },
-  callback: (error:Error) => undefined);
-```
+Deploy Aran's analysis on distributed programs, for free!
+This repository is still in alpha stage.
+Demonstrator [here](https://cdn.rawgit.com/lachrist/drizzt/d5acf816/demo/output/concolic-delta.html).
